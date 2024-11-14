@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - dev
+      - *-rc
 env:
   MONGODB_CLUSTER_ADDRESS: ${{secrets.MONGODB_CLUSTER_ADDRESS}}
 jobs:
