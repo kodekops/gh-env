@@ -42,4 +42,4 @@ jobs:
     steps:
       - name: Output information
         run: |
-          echo "deployment..."
+          echo "deployment for rc..."
